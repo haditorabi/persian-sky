@@ -1,0 +1,16 @@
+{
+  "collection": {
+    "default": "src",
+    "assets": [
+      {
+        "include": "src/**/*.graphql",
+        "outDir": "dist/graphql"
+      }
+    ]
+  },
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "assets": ["**/*.graphql"],
+    "watchAssets": true
+  }
+}
