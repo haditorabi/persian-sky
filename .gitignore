@@ -1,2 +1,6 @@
 PersianSky/backend/node_modules
+PersianSky/backend/dist
+PersianSky/backend/.env
 PersianSky/frontend/node_modules
+PersianSky/frontend/.env
+PersianSky/frontend/.next
