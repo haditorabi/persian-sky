@@ -6,7 +6,7 @@ import { ListingsModule } from './modules/listings/listings.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.MONGODB_URI), // MongoDB connection string
+    MongooseModule.forRoot(process.env.MONGODB_URI || 'mongodb://localhost:27017/persian-sky-local'), // MongoDB connection string
     AuthModule,
     UsersModule,
     ListingsModule,
